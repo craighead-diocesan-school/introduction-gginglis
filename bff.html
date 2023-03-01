@@ -20,29 +20,25 @@
 <main>
     <h2> My Best Friend(s) </h2>
 
-    <ul>
-        <li>
-            <img src="zoe.jpeg">
-            <p> Zoe </p>
-        </li>
-        <li>
-            <img src="andra.jpeg">
-            <p> Andra </p>
-        </li>
-        <li>
-            <img src="amber.JPG">
-            <p> Amber </p>
-        </li>
-        <li>
-            <img src="kaizzer.JPG">
-            <p> Kaizzer </p>
-        </li>
-        <li>
-            <img src="ava.png">
-            <p> Ava </p>
-        </li>
+    <div>
+        <img src="zoe.jpeg">
+        <p> Zoe </p>
 
-    </ul>
+        <img src="andra.jpeg">
+        <p> Andra </p>
+
+        <img src="amber.JPG">
+        <p> Amber </p>
+
+        <img src="kaizzer.JPG">
+        <p> Kaizzer </p>
+
+        <img src="ava.png">
+        <p> Ava </p>
+    </div>
+
+
+
 </main>
 
 <style>
@@ -61,8 +57,8 @@
     }
 
     img {
-        width: 20%;
-        margin-bottom: 10px;
+        height: 200px;
+        margin-left: 3%
     }
 
     a {
@@ -76,10 +72,11 @@
         text-decoration: none;
     }
 
-    ul {
+    p {
         color: #679d35;
         font-family: 'Lexend Deca', sans-serif;
         font-size: 1em;
+        margin-left: 3%
     }
 
     h2 {
@@ -100,6 +97,11 @@
         color: #679d35;
         font-family: 'Lexend Deca', sans-serif;
         font-size: 1em;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
     }
 </style>
 <footer>
